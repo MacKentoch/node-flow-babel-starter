@@ -1,9 +1,12 @@
 [ignore]
+.*/node_modules
+./lib
 
 [include]
-flow_typed
+./src
 
 [libs]
+./flow_typed
 
 [lints]
 

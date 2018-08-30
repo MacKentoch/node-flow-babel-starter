@@ -1,11 +1,7 @@
 // @flow
 
-// #region flow types
-type CallBack = () => any;
-// #endregion
-
 // #region constants
-const delayedNothing = (cb: CallBack) =>
+const delayedNothing = (cb: DummyCallBack) =>
   new Promise(resolve => process.nextTick(() => resolve(cb())));
 // #endregion
 
