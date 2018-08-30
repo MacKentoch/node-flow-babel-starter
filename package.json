@@ -1,7 +1,7 @@
 {
   "name": "node-flow-babel-starter",
   "version": "1.0.0",
-  "description": "node js (LTS) using minimalist babel for flow typing experience without any other babel transpile (pure NodeJS)",
+  "description": "NodeJS (LTS) using minimalist babel for flow typing experience without any other babel transpile (pure NodeJS)",
   "author": "MacKentoch",
   "license": "MIT",
   "main": "index.js",
