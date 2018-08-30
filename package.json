@@ -1,0 +1,35 @@
+{
+  "name": "node-flow-babel-starter",
+  "version": "1.0.0",
+  "description": "node js (LTS) using minimalist babel for flow typing experience without any other babel transpile (pure NodeJS)",
+  "author": "MacKentoch",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "node",
+    "flow",
+    "babel",
+    "babel7",
+    "eslint",
+    "prettier"
+  ],
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "types:install": "npx flow_typed install",
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "flow-bin": "^0.79.1",
+    "flow-typed": "^2.5.1"
+  }
+}
