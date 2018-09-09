@@ -17,7 +17,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "types:install": "npx flow_typed install",
+    "types:install": "npx flow-typed install",
     "build": "babel src -d lib"
   },
   "devDependencies": {
